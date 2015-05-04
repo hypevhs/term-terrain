@@ -64,7 +64,7 @@ void initMap(double* map) {
 }
 
 char getRepresenter(double cellValue) {
-	char* hurhur = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"; //11 (would be 12 but \)
+	char* hurhur = ".'`^\",:;Il!i><~+-][}{1)(|\\/tfjrxnuvczmwqpdbkhaoXYUJCLQ0OZMW&8\%B@$#";
 	int len = strlen(hurhur);
 	int index = (int)(cellValue * len);
 	index = fmin(fmax(index, 0), len - 1);

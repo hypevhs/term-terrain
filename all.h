@@ -7,6 +7,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <math.h>
+#include <unistd.h>
 
 #define RUNLENGTH 100000 //how many frames to run the simulation
 #define TSIZE 257
